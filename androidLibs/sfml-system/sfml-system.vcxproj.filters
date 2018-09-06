@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\SFML\System\Clock.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Err.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\FileInputStream.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Lock.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\MemoryInputStream.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Mutex.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Sleep.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\String.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Thread.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Time.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Unix\ThreadImpl.cpp" />
+    <ClCompile Include="..\..\src\SFML\System\Android\Activity.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\System\Android\ResourceStream.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\System\Android\NativeActivity.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\System\Unix\ClockImpl.cpp">
+      <Filter>Unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\System\Unix\MutexImpl.cpp">
+      <Filter>Unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\System\Unix\SleepImpl.cpp">
+      <Filter>Unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\System\ThreadLocal.cpp">
+      <Filter>Unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\System\Unix\ThreadLocalImpl.cpp">
+      <Filter>Unix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\SFML\System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Android">
+      <UniqueIdentifier>{a72fd7ad-74c8-41ad-90a6-3c8f11b4da5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unix">
+      <UniqueIdentifier>{3e346dcc-b9a2-4e75-8e2d-c0b1e9383b2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\SFML\System\Android\ResourceStream.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\System\Android\Activity.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\System\Unix\ClockImpl.hpp">
+      <Filter>Unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\System\Unix\MutexImpl.hpp">
+      <Filter>Unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\System\Unix\SleepImpl.hpp">
+      <Filter>Unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\System\Unix\ThreadImpl.hpp">
+      <Filter>Unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\System\Unix\ThreadLocalImpl.hpp">
+      <Filter>Unix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\SFML\Graphics\BlendMode.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\CircleShape.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Color.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\ConvexShape.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Font.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\GLCheck.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\GLExtensions.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\GLLoader.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Glsl.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Image.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\ImageLoader.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RectangleShape.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RenderStates.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RenderTarget.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RenderTexture.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RenderTextureImpl.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RenderTextureImplDefault.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RenderTextureImplFBO.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\RenderWindow.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Shader.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Shape.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Sprite.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Text.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Texture.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\TextureSaver.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Transform.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Transformable.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\Vertex.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\VertexArray.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\VertexBuffer.cpp" />
+    <ClCompile Include="..\..\src\SFML\Graphics\View.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\SFML\Graphics\CMakeLists.txt" />
+    <Text Include="..\..\src\SFML\Graphics\GLExtensions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\SFML\Graphics\GLCheck.hpp" />
+    <ClInclude Include="..\..\src\SFML\Graphics\GLExtensions.hpp" />
+    <ClInclude Include="..\..\src\SFML\Graphics\GLLoader.hpp" />
+    <ClInclude Include="..\..\src\SFML\Graphics\ImageLoader.hpp" />
+    <ClInclude Include="..\..\src\SFML\Graphics\RenderTextureImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Graphics\RenderTextureImplDefault.hpp" />
+    <ClInclude Include="..\..\src\SFML\Graphics\RenderTextureImplFBO.hpp" />
+    <ClInclude Include="..\..\src\SFML\Graphics\TextureSaver.hpp" />
+  </ItemGroup>
+</Project>

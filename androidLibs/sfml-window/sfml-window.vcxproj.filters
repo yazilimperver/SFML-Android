@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\SFML\Window\Clipboard.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Context.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Cursor.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\GlContext.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\GlResource.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Joystick.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\JoystickManager.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Keyboard.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Mouse.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Sensor.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\SensorManager.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Touch.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\VideoMode.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Window.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\WindowImpl.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\Android\ClipboardImpl.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\Window\Android\CursorImpl.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\Window\Android\InputImpl.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\Window\Android\JoystickImpl.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\Window\Android\SensorImpl.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\Window\Android\VideoModeImpl.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\Window\Android\WindowImplAndroid.cpp">
+      <Filter>Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SFML\Window\EGLCheck.cpp" />
+    <ClCompile Include="..\..\src\SFML\Window\EglContext.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\SFML\Window\ClipboardImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\CursorImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\GlContext.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\InputImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\JoystickImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\JoystickManager.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\SensorImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\SensorManager.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\VideoModeImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\WindowImpl.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\Android\ClipboardImpl.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\Window\Android\CursorImpl.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\Window\Android\InputImpl.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\Window\Android\JoystickImpl.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\Window\Android\SensorImpl.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\Window\Android\WindowImplAndroid.hpp">
+      <Filter>Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SFML\Window\EGLCheck.hpp" />
+    <ClInclude Include="..\..\src\SFML\Window\EglContext.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\SFML\Window\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Android">
+      <UniqueIdentifier>{09c95d96-8ce7-46d6-890c-c06f47f10e41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
