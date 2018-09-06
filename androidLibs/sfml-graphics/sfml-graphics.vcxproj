@@ -156,35 +156,27 @@
   <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -212,104 +204,104 @@
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);;z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window;sfml_system</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);;z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window;sfml_system</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);;z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window;sfml_system</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\stb_image;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);;z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window;sfml_system</LibraryDependencies>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);$(SolutionDir)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

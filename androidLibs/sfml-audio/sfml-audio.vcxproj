@@ -135,35 +135,27 @@
   <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    
     <Import Project="..\..\sfml_android_common.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -194,23 +186,23 @@
       <PreprocessorDefinitions>ANDROID;NDEBUG;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system-d</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system-d</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
@@ -220,23 +212,23 @@
       <PreprocessorDefinitions>ANDROID;NDEBUG;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system-d</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system-d</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -246,23 +238,23 @@
       <PreprocessorDefinitions>ANDROID;NDEBUG;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system-d</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system-d</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -272,24 +264,24 @@
       <PreprocessorDefinitions>ANDROID;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <CppLanguageStandard>c++1z</CppLanguageStandard>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Enabled</ExceptionHandling>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system-d</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system-d</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\headers\AL;E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\AL;$(SolutionDir)extlibs\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\GitRepository\ExtLibraries\SFML-2.5.0\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;android;sfml_system</LibraryDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\extlibs\libs-android\$(TargetArchAbi);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);OpenSLES;openal;vorbisenc;vorbisfile;vorbis;ogg;FLAC;m;dl;log;sfml_system</LibraryDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
