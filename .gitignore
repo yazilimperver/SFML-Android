@@ -5,3 +5,12 @@
 /androidLibs/sfml-activity/ARM/Debug
 /Intermediate/ARM/Debug
 /build/ARM/Debug
+/.vs/SFML-Main/v15
+/x86/Debug
+/ARM/Debug
+/build
+/Intermediate/x86
+/SFML_NExample/SFML_NExample.NativeActivity/ARM/Debug
+/SFML_NExample/SFML_NExample.NativeActivity/x86/Debug
+/SFML_NExample/SFML_NExample.Packaging/ARM/Debug
+/SFML_NExample/SFML_NExample.Packaging/x86/Debug

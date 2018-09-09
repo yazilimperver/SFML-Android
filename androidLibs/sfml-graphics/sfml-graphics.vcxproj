@@ -94,63 +94,57 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
-    <ThumbMode>Thumb</ThumbMode>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
-    <ThumbMode>Thumb</ThumbMode>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
-    <ThumbMode>Thumb</ThumbMode>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
-    <ThumbMode>Thumb</ThumbMode>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
-    <ThumbMode>Thumb</ThumbMode>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Clang_5_0</PlatformToolset>
-    <AndroidAPILevel>android-23</AndroidAPILevel>
+    <AndroidAPILevel>android-21</AndroidAPILevel>
     <UseOfStl>c++_shared</UseOfStl>
-    <ThumbMode>Thumb</ThumbMode>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings" />
@@ -205,8 +199,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
-      <CppLanguageStandard>c++1z</CppLanguageStandard>
+      <PreprocessorDefinitions>SFML_STATIC;ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
@@ -231,8 +224,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
-      <CppLanguageStandard>c++1z</CppLanguageStandard>
+      <PreprocessorDefinitions>SFML_STATIC;ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
@@ -257,8 +249,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
-      <CppLanguageStandard>c++1z</CppLanguageStandard>
+      <PreprocessorDefinitions>SFML_STATIC;ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;SFML_OPENGL_ES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
@@ -284,7 +275,6 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)extlibs\headers;$(SolutionDir)extlibs\headers\stb_image;$(SolutionDir)extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ANDROID;STBI_FAILURE_USERMSG;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;GL_EXT_PROTOTYPES;</PreprocessorDefinitions>
-      <CppLanguageStandard>c++1z</CppLanguageStandard>
     </ClCompile>
     <Link>
       <LibraryDependencies>$(StlLibraryName);%(LibraryDependencies);z;EGL;GLESv1_CM;GLESv2;freetype;m;dl;log;android;sfml_window-d;sfml_system-d</LibraryDependencies>
